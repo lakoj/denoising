@@ -5,8 +5,8 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 
 // 个人主页
 const home = {
-    name: "My Blog",
-    link: "https://junyaohu.github.io/",
+    name: "香港中文大学",
+    link: "https://www.cuhk.edu.hk/chinese/",
 }
 
 // 项目主页
@@ -18,12 +18,12 @@ const logo = {
 // 右侧更多菜单
 const more_paper = {
     "ExtDM": {
-        name: "ExtDM - CVPR 2024",
-        link: "https://zzcheng.top/ExtDM/",
+        name: "百度",
+        link: "https://www.baidu.com/",
     },
     "MPOT": {
-        name: "MPOT - ICCV 2023",
-        link: "https://zzcheng.top/MPOT/",
+        name: "Google",
+        link: "https://www.google.com/",
     },
     "ControlNet": {
         name: "ControlNet - ICCV 2023",
@@ -65,9 +65,9 @@ const more_paper = {
             <el-menu-item index="2-2">
                 <a :href=more_paper.MPOT.link>{{ more_paper.MPOT.name }}</a>
             </el-menu-item>
-            <el-menu-item index="2-3">
+            <!-- <el-menu-item index="2-3">
                 <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a>
-            </el-menu-item>
+            </el-menu-item> -->
         </el-sub-menu>
 
     </el-menu>

@@ -16,18 +16,18 @@
         <!-- local -->
         <el-container class="video-container">
           <video controls muted preload playsinline>
-            <source src="/video/video.mp4" type="video/mp4">
+            <source src="/video/video1.mp4" type="video/mp4">
           </video>
         </el-container>
         
         <!-- bilibili -->
         <el-container class="video-container">
-          <iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1zw68YsEP9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+          <iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1ifGYzNEv9" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
         </el-container>
 
         <!-- youtube -->
         <el-container class="video-container">
-          <iframe src="https://www.youtube.com/embed/wjZofJX0v4M?si=BFvRyc3n3fFV_f1G" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/2Bo-ULStqLo?si=_sPqw47ek4dUavX0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </el-container>
       </el-col>
     </el-row>

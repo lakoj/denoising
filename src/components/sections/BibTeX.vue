@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
+        "@article{xxx,",
+        "    title={Image Denoising},",
+        "    author={Bing Yang},",
         "    journal={GitHub},",
-        "    year={2023}",
+        "    year={2025}",
         "}",
       ],
     }
@@ -85,7 +85,6 @@ pre code {
   font-size: 18px;
   background: #ffffff;
 }
-
 
 
 </style>

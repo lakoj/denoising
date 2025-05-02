@@ -13,18 +13,10 @@ const links = {
   
   <div class="bg">
     
-    <el-watermark :content="['JunyaoHu', 'Academic Project', 'Page Template']" :gap="['60','0']" :z-index="0">
+    <el-watermark :content="['Bing Yang', 'Image Denoising']" :gap="['60','0']" :z-index="0">
       <el-row justify="center">
         <p class="footer">
-          This template is inspired by 
-          <a :href="links.Nerfies">Nerfies</a>,<br/>
-          
-          powered by 
-          <a :href="links.Vue">Vue</a>, 
-          <a :href="links.Vite">Vite</a>, and
-          <a :href="links.ElementPlus">Element Plus</a>.<br/>
-          
-          You can fork🛠️ / star✨/ PR📃 from <a :href="links.template">here</a>.
+          这是一个页脚
         </p>
       </el-row>
     </el-watermark>
